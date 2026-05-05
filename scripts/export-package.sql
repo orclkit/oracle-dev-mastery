@@ -51,7 +51,7 @@ FROM   (SELECT Decode(line, 1, 'CREATE OR REPLACE ') || text text, TYPE, line
                            WHERE src.name = bdy.name
                                  AND src.type = bdy.type)
         ORDER BY TYPE, line
-    ) where rownum <= 10
+    )
     ;
 
 SPOOL OFF
