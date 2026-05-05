@@ -20,11 +20,11 @@ tags: [oracle, rds, plsql, security]
 ---
 
 ## 📋 Table of Contents
-- [Prerequisites](#-prerequisites)
-- [The Challenge](#-the-challenge)
-- [Step-by-Step Implementation](#-step-by-step-implementation)
-- [Performance Verification](#-performance-verification)
-- [Implementation Checklist](#-implementation-checklist)
+- [Prerequisites](#prerequisites)
+- [The Challenge](#the-challenge)
+- [Step-by-Step Implementation](#step-by-step-implementation)
+- [Solution Comparison](#solution-comparison)
+- [Implementation Checklist](#implementation-checklist)
 - [Summary](#summary)
 
 ## ✅ Prerequisites
@@ -151,7 +151,6 @@ AND line = 1;
 Wrapping large PL/SQL packages on Oracle RDS requires moving away from simple string literals.
 For production pipelines, local obfuscation using the `wrap` utility is the industry standard.
 For dynamic scenarios, leveraging the `DBMS_SQL.VARCHAR2A` collection type provides a robust internal workaround for the 32KB buffer limit.
-
 
 ## Sources
 For further reading on the internal mechanics of PL/SQL wrapping, refer to the official Oracle Documentation:
