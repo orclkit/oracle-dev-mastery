@@ -4,8 +4,8 @@
 
 
 --Set your variable
-DEFINE pkg_owner = 'CUSTOMER'
-DEFINE pkg_name  = 'TELEMETRY_PKG'
+DEFINE pkg_owner = 'package-owner'
+DEFINE pkg_name  = 'package-name'
 
 DEFINE base_path = 'C:\Temp\&pkg_name..pck'
 
