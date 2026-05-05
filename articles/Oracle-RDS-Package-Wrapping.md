@@ -20,12 +20,12 @@ tags: [oracle, rds, plsql, security]
 ---
 
 ## 📋 Table of Contents
-- [Prerequisites](#prerequisites)
-- [The Challenge](#the-challenge)
-- [Step-by-Step Implementation](#step-by-step-implementation)
-- [Solution Comparison](#solution-comparison)
-- [Implementation Checklist](#implementation-checklist)
-- [Summary](#summary)
+- [Prerequisites](#-prerequisites)
+- [The Challenge](#-the-challenge)
+- [Step-by-Step Implementation](#-step-by-step-implementation)
+- [Solution Comparison](#-solution-comparison)
+- [Implementation Checklist](#-implementation-checklist)
+- [Summary](#-summary)
 
 ## ✅ Prerequisites
 Before starting, ensure you have:
