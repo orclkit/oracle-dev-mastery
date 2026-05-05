@@ -20,11 +20,11 @@ tags: [oracle, plsql, devops, dba]
 ---
 
 ## 📑 Table of Contents
-- [Prerequisites](#prerequisites)
-- [The Challenge](#the-challenge)
-- [Step-by-Step Implementation](#step-by-step-implementation)
-- [Performance Verification](#performance-verification)
-- [Summary](#summary)
+- [Prerequisites](#-prerequisites)
+- [The Challenge](#-the-challenge)
+- [Step-by-Step Implementation](#-step-by-step-implementation)
+- [Comparison Summary](#-comparison-summary)
+- [Summary](#-summary)
 
 ## 🛠 Prerequisites
 Before starting, ensure you have:
