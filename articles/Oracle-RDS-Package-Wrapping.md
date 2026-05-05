@@ -119,6 +119,7 @@ END;
 Wrapping does not change the execution plan logic, but it adds a negligible overhead during the initial compilation phase.
 
 
+
 | Metric | Direct String (Literal) | Local Wrap Utility | VARCHAR2A Collection |
 | :--- | :---: | :---: | :---: |
 | **Max Size** | < 32 KB | **Unlimited** | **Unlimited** |
