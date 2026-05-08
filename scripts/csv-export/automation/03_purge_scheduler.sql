@@ -1,11 +1,11 @@
--- +-----------------------------------------------------------------------------+
--- | NAME: 03_purge_scheduler.sql                                                |
--- | DESCRIPTION: DBMS_SCHEDULER automation for daily CSV file retention/purging |
--- | COMPATIBILITY: Oracle 19c, 21c, 23c                                         |
--- | LICENSE: GNU General Public License v3.0 (GPL-3.0)                          |
--- | USAGE: Configures the "Maintenance Robot" for directory cleanup on RDS      |
--- | Author: @orclkit                                                            |
--- +-----------------------------------------------------------------------------+
+-- +------------------------------------------------------------------------------+
+-- | NAME: 03_purge_scheduler.sql                                                 |
+-- | DESCRIPTION: DBMS_SCHEDULER automation for daily CSV file retention/purging  |
+-- | COMPATIBILITY: Oracle 19c, 21c, 23c                                          |
+-- | LICENSE: GNU General Public License v3.0 (GPL-3.0)                           |
+-- | USAGE: Configures the "Maintenance Robot" for directory cleanup on RDS       |
+-- | Author: @orclkit                                                             |
+-- +------------------------------------------------------------------------------+
 
 
 -- 1. Configuration Variables
